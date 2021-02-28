@@ -11,8 +11,8 @@ const char* ssid = "ssidname";                //Name des eigenen WLAN
 const char* password = "passwort";            //WPA-Key des eigenen WLAN
 #define APIKEY "hierIFTTTKeyeinsetzen"        //IFTTT-Key von Seite https://ifttt.com/services/maker/settings
 #define IFTTTEVENT "filament"                 //Ereignis-Name bei der Erzeugung des Aplets
-#define MQTTUSER "mqttuser"		                //hier Benutzername für MQTT-Server einsetzen
-#define MQTTPW "mqttpw"			                  //hier Passwort für MQTT-Server einsetzen
+#define mqttuser "Benutzer"		              //hier Benutzername für MQTT-Server einsetzen
+#define mqttpw "Passwort"			          //hier Passwort für MQTT-Server einsetzen
 const float Calibration = 404.0;              //Ergebnis des Arduino-Programms 'Calibrate' aus den Beispielen der Bibliothek HX711_ADC
 const int cyclet = 5000;                      //Häufigkeit der Übertagung an MQTT in ms 5000 = Messung alle 5s
 #define Run0 5                                //wieoft die Warung unterdrücken zum Beginn und nach Tare?
